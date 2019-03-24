@@ -1,0 +1,50 @@
+.homeImage {
+	position: relative;
+	background-image: url('../img/gif.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	border-bottom: 15px solid rgba(53, 38, 80, 0.8);
+	background-attachment: fixed;
+}
+
+.container nav-wrapper {
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+
+/* Nav Bar CSS*/
+.nav {
+
+	position: fixed;
+	top: 0px;
+}
+
+/* Send Button CSS */
+.send{
+    border: 2px solid;
+    background-color: white;
+}
+
+.aboutText {
+	padding: 15px 20px 15px 20px;
+	position: absolute;
+	margin: auto;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+#contact {
+	background-image: url("../img/contact 5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.lead {
+	color: black;
+	font-weight: bold;
+}
